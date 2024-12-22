@@ -5,6 +5,7 @@ import plotly.express as px
 
 # Inicializar la aplicación Dash
 app = Dash(__name__)
+server = app.server  # Agrega esta línea
 
 # Directorio de datos
 data_dir = os.path.join(os.getcwd(), "data")
