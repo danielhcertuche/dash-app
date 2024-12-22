@@ -1,0 +1,7 @@
+dash==2.11.1
+numpy
+pandas
+plotly
+flask
+waitress 
+gunicorn
